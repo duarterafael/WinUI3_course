@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SCommerce.Main (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "SCommerce.Main (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
