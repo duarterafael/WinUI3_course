@@ -8,6 +8,25 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mc:Ignorable="d">
+
+    <Page.TopAppBar>
+        <CommandBar
+            VerticalContentAlignment="Stretch"
+            IsOpen="True"
+            IsSticky="True">
+            <CommandBar.Content>
+                <TextBlock
+                    Margin="20,0"
+                    VerticalAlignment="Center"
+                    FontSize="20"
+                    FontWeight="Black"
+                    Foreground="DarkSlateBlue"
+                    Text="SCommmerce" />
+            </CommandBar.Content>
+            <AppBarButton Icon="Shop" Label="Cart" />
+        </CommandBar>
+    </Page.TopAppBar>
+
     <ScrollViewer>
         <Grid Padding="20">
             <Grid.RowDefinitions>
@@ -80,5 +99,4 @@
                 TextWrapping="Wrap" />
         </Grid>
     </ScrollViewer>
-
 </Page>
