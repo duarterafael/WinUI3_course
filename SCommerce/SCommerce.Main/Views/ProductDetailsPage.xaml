@@ -23,15 +23,18 @@
             Margin="0,0,0,30"
             FontSize="50"
             FontWeight="SemiBold"
+            Foreground="#333333"
             Text="Name of my product"
             TextWrapping="Wrap" />
-        <Image
+        <Border
             Grid.Row="1"
             MaxHeight="300"
             Margin="0,0,20,40"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
-            Source="/Assets/Images/product1.png"
-            Stretch="UniformToFill" />
+            CornerRadius="30">
+            <Image Source="/Assets/Images/product2.png" Stretch="UniformToFill" />
+        </Border>
+
     </Grid>
 </Page>
