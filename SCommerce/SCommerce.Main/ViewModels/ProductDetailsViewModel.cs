@@ -16,14 +16,21 @@
 
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace SCommerce.Main.ViewModels
 {
-    public class ProductDetailsViewModel
+    public class ProductDetailsViewModel : INotifyPropertyChanged
     {
+        #region Private Fields
+
+        private string _selectedImage;
+
+        #endregion Private Fields
+
         #region Public Constructors
 
         public ProductDetailsViewModel()
@@ -36,12 +43,18 @@ namespace SCommerce.Main.ViewModels
             {
                 "/Assets/Images/product1.png",
                 "/Assets/Images/product2.png",
-                "/Assets/Images/product2.png",
+                "/Assets/Images/product3.png",
             };
             SelectedImage = Images[0];
         }
 
         #endregion Public Constructors
+
+        #region Public Events
+
+        public event PropertyChangedEventHandler? PropertyChanged;
+
+        #endregion Public Events
 
         #region Public Properties
 
@@ -49,7 +62,20 @@ namespace SCommerce.Main.ViewModels
         public List<string> Images { get; set; }
         public double Price { get; set; }
         public int Rating { get; set; }
-        public string SelectedImage { get; set; }
+
+        public string SelectedImage
+        {
+            get { return _selectedImage; }
+            set
+            {
+                if (_selectedImage != value)
+                {
+                    _selectedImage = value;
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("SelectedImage"));
+                }
+            }
+        }
+
         public string Title { get; set; }
 
         #endregion Public Properties

@@ -40,20 +40,20 @@ namespace SCommerce.Main.Views
     /// </summary>
     public sealed partial class ProductDetailsPage : Page
     {
-        #region Public Fields
-
-        public ProductDetailsViewModel ViewModel = new ProductDetailsViewModel();
-
-        #endregion Public Fields
-
         #region Public Constructors
 
         public ProductDetailsPage()
         {
             this.InitializeComponent();
-            //this.DataContext
+            this.DataContext = new ProductDetailsViewModel();
         }
 
         #endregion Public Constructors
+
+        #region Public Properties
+
+        public ProductDetailsViewModel ViewModel => (ProductDetailsViewModel)this.DataContext;
+
+        #endregion Public Properties
     }
 }
