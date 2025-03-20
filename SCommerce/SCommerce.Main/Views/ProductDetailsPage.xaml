@@ -12,6 +12,19 @@
 
     <Page.Resources>
         <converters:DoubleToCurrencyFormatConverter x:Key="CurrencyConverter" />
+
+        <ItemsPanelTemplate x:Key="ImagesPanelTemplate">
+            <StackPanel Orientation="Horizontal" />
+        </ItemsPanelTemplate>
+
+        <DataTemplate x:Key="ImageItemTemplae" x:DataType="x:String">
+            <Border
+                Width="100"
+                Height="100"
+                CornerRadius="15">
+                <Image Source="{x:Bind}" Stretch="Uniform" />
+            </Border>
+        </DataTemplate>
     </Page.Resources>
 
     <Page.TopAppBar>
@@ -62,32 +75,12 @@
                     CornerRadius="30">
                     <Image Source="{x:Bind ViewModel.SelectedImage}" Stretch="UniformToFill" />
                 </Border>
-                <StackPanel Orientation="Horizontal" Spacing="20">
-                    <Border
-                        Width="100"
-                        Height="100"
-                        CornerRadius="15">
-                        <Image Source="/Assets/Images/product1.png" Stretch="Uniform" />
-                    </Border>
-                    <Border
-                        Width="100"
-                        Height="100"
-                        CornerRadius="15">
-                        <Image Source="/Assets/Images/product2.png" Stretch="Uniform" />
-                    </Border>
-                    <Border
-                        Width="100"
-                        Height="100"
-                        CornerRadius="15">
-                        <Image Source="/Assets/Images/product2.png" Stretch="Uniform" />
-                    </Border>
-                    <Border
-                        Width="100"
-                        Height="100"
-                        CornerRadius="15">
-                        <Image Source="/Assets/Images/product2.png" Stretch="Uniform" />
-                    </Border>
-                </StackPanel>
+
+                <ListView
+                    ItemTemplate="{StaticResource ImageItemTemplae}"
+                    ItemsPanel="{StaticResource ImagesPanelTemplate}"
+                    ItemsSource="{x:Bind ViewModel.Images}" />
+
                 <TextBlock FontSize="28" FontWeight="SemiBold">
                     <Run Text="R$" />
                     <Run Text="{x:Bind ViewModel.Price, Converter={StaticResource CurrencyConverter}}" />

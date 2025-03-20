@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\views\\productdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\views\\productdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\views\\productdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\viewmodels\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\viewmodels\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\converters\\doubletocurrencyformatconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\converters\\doubletocurrencyformatconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\views\\productdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\views\\productdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ProductDetailsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\ProductDetailsPage.xaml.cs",
               "RelativeDocumentMoniker": "SCommerce.Main\\Views\\ProductDetailsPage.xaml.cs",
@@ -47,13 +51,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ProductDetailsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\ViewModels\\ProductDetailsViewModel.cs",
               "RelativeDocumentMoniker": "SCommerce.Main\\ViewModels\\ProductDetailsViewModel.cs",
               "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\ViewModels\\ProductDetailsViewModel.cs",
               "RelativeToolTip": "SCommerce.Main\\ViewModels\\ProductDetailsViewModel.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAADwvxwAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvyAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T16:49:00.388Z",
               "EditorCaption": ""
@@ -66,14 +70,27 @@
               "RelativeDocumentMoniker": "SCommerce.Main\\Views\\ProductDetailsPage.xaml",
               "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\ProductDetailsPage.xaml",
               "RelativeToolTip": "SCommerce.Main\\Views\\ProductDetailsPage.xaml",
-              "ViewState": "AgIAACQAAAAAAAAAAADgvzkAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-19T18:57:00.832Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "DoubleToCurrencyFormatConverter.cs",
+              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Converters\\DoubleToCurrencyFormatConverter.cs",
+              "RelativeDocumentMoniker": "SCommerce.Main\\Converters\\DoubleToCurrencyFormatConverter.cs",
+              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Converters\\DoubleToCurrencyFormatConverter.cs",
+              "RelativeToolTip": "SCommerce.Main\\Converters\\DoubleToCurrencyFormatConverter.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T18:04:41.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\App.xaml.cs",
               "RelativeDocumentMoniker": "SCommerce.Main\\App.xaml.cs",
