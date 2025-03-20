@@ -9,18 +9,29 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mc:Ignorable="d">
 
-    <Grid>
+    <Grid Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
         <TextBlock
-            Margin="10,20"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
+            Grid.ColumnSpan="2"
+            Margin="0,0,0,30"
             FontSize="50"
             FontWeight="SemiBold"
-            Foreground="#33333333"
-            Text="Name of my product" />
+            Text="Name of my product"
+            TextWrapping="Wrap" />
         <Image
-            Margin="0,80,0,0"
+            Grid.Row="1"
+            MaxHeight="300"
+            Margin="0,0,20,40"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
             Source="/Assets/Images/product1.png"
-            Stretch="Uniform" />
+            Stretch="UniformToFill" />
     </Grid>
 </Page>
