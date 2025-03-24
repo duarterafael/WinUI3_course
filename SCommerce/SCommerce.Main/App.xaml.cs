@@ -79,7 +79,10 @@ namespace SCommerce.Main
             m_window = new MainWindow();
             RootFrame = new Frame();
             RootFrame.Navigate(typeof(ProductDetailsPage));
-            m_window.Content = RootFrame;
+            var appShell = new AppShell();
+            appShell.SetFrame(RootFrame);
+
+            m_window.Content = appShell;
             m_window.Activate();
         }
 
