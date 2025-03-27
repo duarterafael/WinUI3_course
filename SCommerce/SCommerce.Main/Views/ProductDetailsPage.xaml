@@ -42,7 +42,7 @@
                 Margin="0,0,0,30"
                 FontSize="50"
                 FontWeight="SemiBold"
-                Foreground="#333333"
+                Foreground="{StaticResource TitleColor}"
                 Text="{x:Bind ViewModel.Title}"
                 TextWrapping="Wrap" />
             <StackPanel
