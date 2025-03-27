@@ -47,6 +47,9 @@
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.7.250310001" />
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Themes\DarkThemeColor.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\HeaderView.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
