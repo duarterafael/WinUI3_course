@@ -6,6 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="using:SCommerce.Main"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:views="using:SCommerce.Main.Views"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mc:Ignorable="d">
 
@@ -14,23 +15,7 @@
             <RowDefinition Height="Auto" />
             <RowDefinition />
         </Grid.RowDefinitions>
-
-        <CommandBar
-            VerticalContentAlignment="Stretch"
-            IsOpen="True"
-            IsSticky="True">
-            <CommandBar.Content>
-                <TextBlock
-                    Margin="20,0"
-                    VerticalAlignment="Center"
-                    FontSize="20"
-                    FontWeight="Black"
-                    Foreground="DarkSlateBlue"
-                    Text="SCommmerce" />
-            </CommandBar.Content>
-            <AppBarButton Icon="Shop" Label="Cart" />
-        </CommandBar>
-
+        <views:HeaderView />
         <ContentPresenter x:Name="FrameContainer" Grid.Row="1" />
     </Grid>
 </Page>

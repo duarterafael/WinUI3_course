@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\views\\productdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\views\\productdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\viewmodels\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\viewmodels\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,26 +38,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ProductDetailsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\ProductDetailsPage.xaml",
+              "RelativeDocumentMoniker": "SCommerce.Main\\Views\\ProductDetailsPage.xaml",
+              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\ProductDetailsPage.xaml",
+              "RelativeToolTip": "SCommerce.Main\\Views\\ProductDetailsPage.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-24T13:18:53.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\ViewModels\\ProductDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "SCommerce.Main\\ViewModels\\ProductDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\ViewModels\\ProductDetailsViewModel.cs",
+              "RelativeToolTip": "SCommerce.Main\\ViewModels\\ProductDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T13:18:47.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\App.xaml.cs",
               "RelativeDocumentMoniker": "SCommerce.Main\\App.xaml.cs",
               "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\App.xaml.cs",
               "RelativeToolTip": "SCommerce.Main\\App.xaml.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAAwFQAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAwwFQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T13:17:01.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "SCommerce.Main\\AppShell.xaml.cs",
               "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\AppShell.xaml.cs",
               "RelativeToolTip": "SCommerce.Main\\AppShell.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwDYAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAcwDYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T13:16:13.569Z",
               "EditorCaption": ""
@@ -62,7 +96,7 @@
               "RelativeDocumentMoniker": "SCommerce.Main\\AppShell.xaml",
               "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\AppShell.xaml",
               "RelativeToolTip": "SCommerce.Main\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-24T13:13:49.213Z",
               "EditorCaption": ""
