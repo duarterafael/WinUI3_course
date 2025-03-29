@@ -5,4 +5,5 @@
     xmlns:local="using:SCommerce.Main.Themes">
     <SolidColorBrush x:Key="Color1" Color="#FCFCFC" />
     <SolidColorBrush x:Key="Color2" Color="#BABABA" />
+    <SolidColorBrush x:Key="Color3" Color="BlueViolet" />
 </ResourceDictionary>

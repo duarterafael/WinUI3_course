@@ -40,6 +40,29 @@
             <Setter Property="FontSize" Value="20" />
             <Setter Property="Foreground" Value="{ThemeResource Color2}" />
         </Style>
+        <Style x:Key="PrimaryButton" TargetType="Button">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Background" Value="{ThemeResource Color3}" />
+            <Setter Property="CornerRadius" Value="5" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border
+                            Width="{TemplateBinding Width}"
+                            Height="{TemplateBinding Height}"
+                            Background="{TemplateBinding Background}"
+                            CornerRadius="{TemplateBinding CornerRadius}">
+                            <ContentPresenter
+                                HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                Content="{TemplateBinding Content}"
+                                Foreground="{TemplateBinding Foreground}" />
+
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Page.Resources>
 
     <ScrollViewer>
@@ -82,7 +105,12 @@
                     <Run Text="{x:Bind ViewModel.Price, Converter={StaticResource CurrencyConverter}}" />
                 </TextBlock>
 
-                <Button Content="Add to Card" />
+                <Button
+                    Width="100"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="Add to Card"
+                    Style="{StaticResource PrimaryButton}" />
             </StackPanel>
             <TextBlock
                 Grid.Row="1"
