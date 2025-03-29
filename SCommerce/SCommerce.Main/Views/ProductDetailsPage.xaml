@@ -48,16 +48,39 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
                         <Border
+                            x:Name="Root"
                             Width="{TemplateBinding Width}"
                             Height="{TemplateBinding Height}"
                             Background="{TemplateBinding Background}"
                             CornerRadius="{TemplateBinding CornerRadius}">
                             <ContentPresenter
+                                x:Name="Content"
                                 HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
                                 VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
                                 Content="{TemplateBinding Content}"
                                 Foreground="{TemplateBinding Foreground}" />
-
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="ComonState">
+                                    <VisualState x:Name="Nornal" />
+                                    <VisualState x:Name="PointerOver">
+                                        <Storyboard>
+                                            <PointerUpThemeAnimation TargetName="Root" />
+                                        </Storyboard>
+                                        <VisualState.Setters>
+                                            <Setter Target="Root.Background" Value="Pink" />
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <PointerDownThemeAnimation TargetName="Root" />
+                                        </Storyboard>
+                                        <VisualState.Setters>
+                                            <Setter Target="Content.Foreground" Value="Red" />
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                    <VisualState x:Name="Disable" />
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
                         </Border>
                     </ControlTemplate>
                 </Setter.Value>
