@@ -3,6 +3,7 @@
     x:Class="SCommerce.Main.Views.HeaderView"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:SCommerce.Main.Controls"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="using:SCommerce.Main.Views"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -21,6 +22,10 @@
                 Foreground="DarkSlateBlue"
                 Text="SCommmerce" />
         </CommandBar.Content>
-        <AppBarButton Icon="Shop" Label="Cart" />
+        <controls:BadgeAppBarButton
+            Badge="2"
+            Icon="Shop"
+            Label="Cart"
+            Style="{ThemeResource BadgeAppBarButton}" />
     </CommandBar>
 </UserControl>
