@@ -15,17 +15,12 @@
  */
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.UI.Xaml.CustomAttributes;
-using SCommerce.Main.SCommerce_Main_XamlTypeInfo;
+using SCommerce.Main.Services;
 
 namespace SCommerce.Main.Dependences
 {
-    public class DepenecyManager : IDependencyManager
+    public class DependecyManager : IDependencyManager
     {
         #region Private Fields
 
@@ -38,12 +33,15 @@ namespace SCommerce.Main.Dependences
 
         public static IDependencyManager GetCurrent()
         {
-            return s_intance ??= new DepenecyManager();
+            return s_intance ??= new DependecyManager();
         }
 
         public static void Setup()
         {
-            IServiceCollection servicesCollection = new ServiceCollection().AddSingleton(GetCurrent());
+            IServiceCollection servicesCollection = new ServiceCollection()
+                .AddSingleton(GetCurrent())
+                .AddSingleton<INavegationService, NavegationService>();
+
             s_provider = servicesCollection.BuildServiceProvider();
         }
 

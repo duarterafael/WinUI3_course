@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\themes\\badgeappbarbutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\themes\\badgeappbarbutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\views\\cardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\views\\cardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\controls\\badgeappbarbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\controls\\badgeappbarbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\views\\cardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\views\\cardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\views\\headerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\views\\headerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\viewmodels\\cardpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\viewmodels\\cardpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\viewmodels\\headerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\viewmodels\\headerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\scommerce.main.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\scommerce.main.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\views\\headerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\views\\headerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SCommerce.Main\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\views\\productdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\views\\productdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\viewmodels\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\viewmodels\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\views\\productdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\views\\productdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\views\\headerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\views\\headerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,101 +50,107 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SCommerce.Main.csproj",
-              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\SCommerce.Main.csproj",
-              "RelativeDocumentMoniker": "SCommerce.Main\\SCommerce.Main.csproj",
-              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\SCommerce.Main.csproj",
-              "RelativeToolTip": "SCommerce.Main\\SCommerce.Main.csproj",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-04T11:11:05.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.g.i.cs",
-              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\App.g.i.cs",
-              "RelativeDocumentMoniker": "SCommerce.Main\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\App.g.i.cs",
-              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\App.g.i.cs",
-              "RelativeToolTip": "SCommerce.Main\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\App.g.i.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAIAwwEQAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T11:06:17.186Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\App.xaml",
-              "RelativeDocumentMoniker": "SCommerce.Main\\App.xaml",
-              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\App.xaml",
-              "RelativeToolTip": "SCommerce.Main\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-04T11:04:03.631Z",
+              "Title": "HeaderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\ViewModels\\HeaderViewModel.cs",
+              "RelativeDocumentMoniker": "SCommerce.Main\\ViewModels\\HeaderViewModel.cs",
+              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\ViewModels\\HeaderViewModel.cs",
+              "RelativeToolTip": "SCommerce.Main\\ViewModels\\HeaderViewModel.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwC0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T00:20:04.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "HeaderView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\HeaderView.xaml.cs",
+              "RelativeDocumentMoniker": "SCommerce.Main\\Views\\HeaderView.xaml.cs",
+              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\HeaderView.xaml.cs",
+              "RelativeToolTip": "SCommerce.Main\\Views\\HeaderView.xaml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwDQAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T00:18:46.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "HeaderView.xaml",
               "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\HeaderView.xaml",
               "RelativeDocumentMoniker": "SCommerce.Main\\Views\\HeaderView.xaml",
               "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\HeaderView.xaml",
               "RelativeToolTip": "SCommerce.Main\\Views\\HeaderView.xaml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAUwBkAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwBoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-04T11:02:30.423Z"
+              "WhenOpened": "2025-04-08T00:18:37.51Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BadgeAppBarButton.cs",
-              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Controls\\BadgeAppBarButton.cs",
-              "RelativeDocumentMoniker": "SCommerce.Main\\Controls\\BadgeAppBarButton.cs",
-              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Controls\\BadgeAppBarButton.cs",
-              "RelativeToolTip": "SCommerce.Main\\Controls\\BadgeAppBarButton.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAQwDMAAAAMAAAAAAAAAA==",
+              "Title": "CardPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\CardPage.xaml.cs",
+              "RelativeDocumentMoniker": "SCommerce.Main\\Views\\CardPage.xaml.cs",
+              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\CardPage.xaml.cs",
+              "RelativeToolTip": "SCommerce.Main\\Views\\CardPage.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T10:53:42.381Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BadgeAppBarButton.xaml",
-              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Themes\\BadgeAppBarButton.xaml",
-              "RelativeDocumentMoniker": "SCommerce.Main\\Themes\\BadgeAppBarButton.xaml",
-              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Themes\\BadgeAppBarButton.xaml",
-              "RelativeToolTip": "SCommerce.Main\\Themes\\BadgeAppBarButton.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-04T10:51:41.758Z",
+              "WhenOpened": "2025-04-08T00:17:18.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ProductDetailsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\ProductDetailsPage.xaml",
-              "RelativeDocumentMoniker": "SCommerce.Main\\Views\\ProductDetailsPage.xaml",
-              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\ProductDetailsPage.xaml",
-              "RelativeToolTip": "SCommerce.Main\\Views\\ProductDetailsPage.xaml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAGUAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-02T13:37:19.574Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "ProductDetailsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\ProductDetailsPage.xaml.cs",
               "RelativeDocumentMoniker": "SCommerce.Main\\Views\\ProductDetailsPage.xaml.cs",
               "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\ProductDetailsPage.xaml.cs",
               "RelativeToolTip": "SCommerce.Main\\Views\\ProductDetailsPage.xaml.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAQwBQAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T13:36:41.487Z"
+              "WhenOpened": "2025-04-08T00:17:05.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\ViewModels\\ProductDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "SCommerce.Main\\ViewModels\\ProductDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\ViewModels\\ProductDetailsViewModel.cs",
+              "RelativeToolTip": "SCommerce.Main\\ViewModels\\ProductDetailsViewModel.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T00:16:00.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CardPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\ViewModels\\CardPageViewModel.cs",
+              "RelativeDocumentMoniker": "SCommerce.Main\\ViewModels\\CardPageViewModel.cs",
+              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\ViewModels\\CardPageViewModel.cs",
+              "RelativeToolTip": "SCommerce.Main\\ViewModels\\CardPageViewModel.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAewC0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T00:15:54.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\CardPage.xaml",
+              "RelativeDocumentMoniker": "SCommerce.Main\\Views\\CardPage.xaml",
+              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\CardPage.xaml",
+              "RelativeToolTip": "SCommerce.Main\\Views\\CardPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-08T00:11:52.546Z",
+              "EditorCaption": ""
             }
           ]
         }

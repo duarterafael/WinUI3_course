@@ -15,16 +15,38 @@
  */
 
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using SCommerce.Main.Services;
+using SCommerce.Main.Views;
 
-namespace SCommerce.Main.Dependences
+namespace SCommerce.Main.ViewModels
 {
-    public interface IDependencyManager
+    public class HeaderViewModel
     {
+        #region Private Fields
+
+        private INavegationService _navegationService;
+
+        #endregion Private Fields
+
+        #region Public Constructors
+
+        public HeaderViewModel(INavegationService navegationService)
+        {
+            _navegationService = navegationService;
+        }
+
+        #endregion Public Constructors
+
         #region Public Methods
 
-        public object GetInstace(Type type);
-
-        public T GetInstance<T>();
+        public void CardPageNavigation()
+        {
+            _navegationService.Navagate(typeof(CardPage));
+        }
 
         #endregion Public Methods
     }

@@ -24,6 +24,7 @@
         </CommandBar.Content>
         <controls:BadgeAppBarButton
             Badge="2"
+            Click="{x:Bind ViewModel.CardPageNavigation}"
             Icon="Shop"
             Label="Cart"
             Style="{ThemeResource BadgeAppBarButton}" />

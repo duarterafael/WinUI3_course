@@ -1,12 +1,12 @@
 /*
- * Copyright 2024 by Samsung Eletrônica da Amazônia Ltda. Todos os direitos reservados.
+ * Copyright 2025 by Samsung Eletrônica da Amazônia Ltda. Todos os direitos reservados.
  *
  * Este software e seus códigos são confidenciais ("Informações Confidenciais")
  * e de propriedade da Samsung Eletrônica da Amazônia Ltda.
  * Você não deverá divulgar as Informações Confidenciais e deverá utilizá-las apenas de acordo
  * com os termos do acordo de licença entre você e a Samsung Eletrônica da Amazônia Ltda.
  *
- * Copyright 2024 by Samsung Eletrônica da Amazônia Ltda. All rights reserved.
+ * Copyright 2025 by Samsung Eletrônica da Amazônia Ltda. All rights reserved.
  *
  * This software and its code are confidential ("Confidential Information")
  * and proprietary information of Samsung Eletrônica da Amazônia Ltda.
@@ -14,20 +14,8 @@
  * with the terms of the license agreement you entered into with Samsung Eletrônica da Amazônia Ltda.
  */
 
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Controls.Primitives;
-using Microsoft.UI.Xaml.Data;
-using Microsoft.UI.Xaml.Input;
-using Microsoft.UI.Xaml.Media;
-using Microsoft.UI.Xaml.Navigation;
+using SCommerce.Main.Dependences;
 using SCommerce.Main.ViewModels;
 
 // To learn more about WinUI, the WinUI project structure,
@@ -45,14 +33,14 @@ namespace SCommerce.Main.Views
         public ProductDetailsPage()
         {
             this.InitializeComponent();
-            this.DataContext = new ProductDetailsViewModel();
+            this.DataContext = ViewModel;
         }
 
         #endregion Public Constructors
 
         #region Public Properties
 
-        public ProductDetailsViewModel ViewModel => (ProductDetailsViewModel)this.DataContext;
+        public ProductDetailsViewModel ViewModel => DependecyManager.GetCurrent().GetInstance<ProductDetailsViewModel>();
 
         #endregion Public Properties
     }

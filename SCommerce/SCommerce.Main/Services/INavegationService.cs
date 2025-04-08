@@ -15,16 +15,23 @@
  */
 
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.UI.Xaml.Controls;
 
-namespace SCommerce.Main.Dependences
+namespace SCommerce.Main.Services
 {
-    public interface IDependencyManager
+    public interface INavegationService
     {
         #region Public Methods
 
-        public object GetInstace(Type type);
+        public Frame GetRootFrame();
 
-        public T GetInstance<T>();
+        public void GoBack();
+
+        public void Navagate(Type type, object? parameters = null);
 
         #endregion Public Methods
     }

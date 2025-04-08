@@ -15,16 +15,48 @@
  */
 
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.UI.Xaml.Controls;
 
-namespace SCommerce.Main.Dependences
+namespace SCommerce.Main.Services
 {
-    public interface IDependencyManager
+    public class NavegationService : INavegationService
     {
+        #region Public Constructors
+
+        public NavegationService()
+        {
+            RootFrame = new Frame();
+        }
+
+        #endregion Public Constructors
+
+        #region Public Properties
+
+        public bool CanGoBack => RootFrame.CanGoBack;
+        public Frame RootFrame { get; set; }
+
+        #endregion Public Properties
+
         #region Public Methods
 
-        public object GetInstace(Type type);
+        public Frame GetRootFrame() => RootFrame;
 
-        public T GetInstance<T>();
+        public void GoBack()
+        {
+            if (CanGoBack)
+            {
+                RootFrame.GoBack();
+            }
+        }
+
+        public void Navagate(Type type, object? parameters = null)
+        {
+            RootFrame.Navigate(type, parameters);
+        }
 
         #endregion Public Methods
     }

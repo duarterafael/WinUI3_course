@@ -14,20 +14,7 @@
  * with the terms of the license agreement you entered into with Samsung Eletrônica da Amazônia Ltda.
  */
 
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Controls.Primitives;
-using Microsoft.UI.Xaml.Data;
-using Microsoft.UI.Xaml.Input;
-using Microsoft.UI.Xaml.Media;
-using Microsoft.UI.Xaml.Navigation;
 using SCommerce.Main.Dependences;
 using SCommerce.Main.ViewModels;
 
@@ -36,11 +23,14 @@ using SCommerce.Main.ViewModels;
 
 namespace SCommerce.Main.Views
 {
-    public sealed partial class HeaderView : UserControl
+    /// <summary>
+    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// </summary>
+    public sealed partial class CardPage : Page
     {
         #region Public Constructors
 
-        public HeaderView()
+        public CardPage()
         {
             this.InitializeComponent();
             this.DataContext = ViewModel;
@@ -50,16 +40,8 @@ namespace SCommerce.Main.Views
 
         #region Public Properties
 
-        public HeaderViewModel ViewModel => DependecyManager.GetCurrent().GetInstance<HeaderViewModel>();
+        public CardPageViewModel ViewModel => DependecyManager.GetCurrent().GetInstance<CardPageViewModel>();
 
         #endregion Public Properties
-
-        #region Private Methods
-
-        private void BadgeAppBarButton_Click(object sender, RoutedEventArgs e)
-        {
-        }
-
-        #endregion Private Methods
     }
 }
