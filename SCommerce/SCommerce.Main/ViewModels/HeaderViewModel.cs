@@ -14,32 +14,47 @@
  * with the terms of the license agreement you entered into with Samsung Eletrônica da Amazônia Ltda.
  */
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using CommunityToolkit.Mvvm.ComponentModel;
 using SCommerce.Main.Services;
 using SCommerce.Main.Views;
+using System;
+using System.Collections.Specialized;
 
 namespace SCommerce.Main.ViewModels
 {
-    public class HeaderViewModel
+    public class HeaderViewModel : ObservableObject
     {
+
         #region Private Fields
 
+        private readonly CartService _cartService;
+        private int _cardQuantity;
         private INavegationService _navegationService;
 
         #endregion Private Fields
 
         #region Public Constructors
 
-        public HeaderViewModel(INavegationService navegationService)
+        public HeaderViewModel(CartService cartService, INavegationService navegationService)
         {
             _navegationService = navegationService;
+            _cartService = cartService;
+
+            _cartService.Products.CollectionChanged += OnProductsCollectionChanged;
+            _cardQuantity = _cartService.Products.Count;
         }
 
         #endregion Public Constructors
+
+        #region Public Properties
+
+        public int CardQuantity
+        {
+            get => _cardQuantity;
+            set => SetProperty(ref _cardQuantity, value);
+        }
+
+        #endregion Public Properties
 
         #region Public Methods
 
@@ -49,5 +64,22 @@ namespace SCommerce.Main.ViewModels
         }
 
         #endregion Public Methods
+
+        #region Private Methods
+
+        private void OnProductsCollectionChanged(object? sender, NotifyCollectionChangedEventArgs e)
+        {
+            if (e.OldItems is not null && e.OldItems.Count > 0)
+            {
+                _cardQuantity -= e.OldItems.Count;
+            }
+            if (e.NewItems is not null && e.NewItems.Count > 0)
+            {
+                _cardQuantity += e.NewItems.Count;
+            }
+        }
+
+        #endregion Private Methods
+
     }
 }
