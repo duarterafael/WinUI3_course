@@ -17,6 +17,7 @@
 using System;
 using Microsoft.Extensions.DependencyInjection;
 using SCommerce.Main.Services;
+using SCommerce.Main.ViewModels;
 
 namespace SCommerce.Main.Dependences
 {
@@ -40,7 +41,10 @@ namespace SCommerce.Main.Dependences
         {
             IServiceCollection servicesCollection = new ServiceCollection()
                 .AddSingleton(GetCurrent())
-                .AddSingleton<INavegationService, NavegationService>();
+                .AddSingleton<INavegationService, NavegationService>()
+                .AddSingleton<ProductDetailsViewModel>()
+                .AddSingleton<CardPageViewModel>()
+                .AddSingleton<HeaderViewModel>();
 
             s_provider = servicesCollection.BuildServiceProvider();
         }

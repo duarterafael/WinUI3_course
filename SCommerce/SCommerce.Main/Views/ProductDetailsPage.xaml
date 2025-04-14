@@ -176,7 +176,7 @@
                 Grid.ColumnSpan="2"
                 Margin="0,0,0,30"
                 Style="{StaticResource Title}"
-                Text="{x:Bind ViewModel.Title}"
+                Text="{x:Bind ViewModel.Product.Title, Mode=OneWay}"
                 TextWrapping="Wrap" />
             <StackPanel
                 Grid.Row="1"
@@ -194,12 +194,12 @@
                 <ListView
                     ItemTemplate="{StaticResource ImageItemTemplae}"
                     ItemsPanel="{StaticResource ImagesPanelTemplate}"
-                    ItemsSource="{x:Bind ViewModel.Images}"
+                    ItemsSource="{x:Bind ViewModel.Product.Images, Mode=OneWay}"
                     SelectedItem="{x:Bind ViewModel.SelectedImage, Mode=TwoWay}" />
 
                 <TextBlock Style="{StaticResource Price}">
                     <Run Text="R$" />
-                    <Run Text="{x:Bind ViewModel.Price, Converter={StaticResource CurrencyConverter}}" />
+                    <Run Text="{x:Bind ViewModel.Product.Price, Mode=OneWay, Converter={StaticResource CurrencyConverter}}" />
                 </TextBlock>
 
                 <Button
@@ -213,7 +213,7 @@
                 Grid.Row="1"
                 Grid.Column="1"
                 Style="{StaticResource Description}"
-                Text="{x:Bind ViewModel.Description}"
+                Text="{x:Bind ViewModel.Product.Description, Mode=OneWay}"
                 TextAlignment="Justify"
                 TextWrapping="Wrap" />
         </Grid>
