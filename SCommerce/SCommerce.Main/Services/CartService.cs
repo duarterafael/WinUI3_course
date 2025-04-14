@@ -14,20 +14,39 @@
  * with the terms of the license agreement you entered into with Samsung Eletrônica da Amazônia Ltda.
  */
 
+using SCommerce.Main.Models;
 using System;
-using Microsoft.UI.Xaml.Controls;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace SCommerce.Main.Services
 {
-    public interface INavegationService
+    public class CartService : ICartService
     {
+        #region Public Constructors
+
+        public CartService()
+        {
+            Products = new();
+        }
+
+        #endregion Public Constructors
+
+        #region Public Properties
+
+        public ObservableCollection<Product> Products { get; set; }
+
+        #endregion Public Properties
+
         #region Public Methods
 
-        public Frame GetRootFrame();
-
-        public void GoBack();
-
-        public void Navagate(Type type, object? parameters = null);
+        public void AddProduct(Product product)
+        {
+            Products.Add(product);
+        }
 
         #endregion Public Methods
     }

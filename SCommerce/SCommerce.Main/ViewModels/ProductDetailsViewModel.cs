@@ -15,19 +15,20 @@
  */
 
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using SCommerce.Main.Models;
+using SCommerce.Main.Services;
 
 namespace SCommerce.Main.ViewModels
 {
     public class ProductDetailsViewModel : ObservableObject
     {
         #region Private Fields
+
+        private readonly CartService _cartService;
 
         private Product _product;
 
@@ -37,8 +38,10 @@ namespace SCommerce.Main.ViewModels
 
         #region Public Constructors
 
-        public ProductDetailsViewModel()
+        public ProductDetailsViewModel(CartService cartService)
         {
+            this._cartService = cartService;
+            AddToCardCommand = new RelayCommand(OnAddToCart, CanExecutedAddToCart);
             InitProducto();
         }
 
@@ -51,6 +54,8 @@ namespace SCommerce.Main.ViewModels
         #endregion Public Events
 
         #region Public Properties
+
+        public RelayCommand AddToCardCommand { get; private set; }
 
         public Product Product
         {
@@ -68,6 +73,11 @@ namespace SCommerce.Main.ViewModels
 
         #region Private Methods
 
+        private bool CanExecutedAddToCart()
+        {
+            return Product is not null;
+        }
+
         private void InitProducto()
         {
             Product = new()
@@ -79,6 +89,11 @@ namespace SCommerce.Main.ViewModels
                 Images = ["/Assets/Images/product1.png", "/Assets/Images/product2.png", "/Assets/Images/product3.png"]
             };
             SelectedImage = Product.Images.FirstOrDefault();
+        }
+
+        private void OnAddToCart()
+        {
+            _cartService.AddProduct(Product);
         }
 
         #endregion Private Methods

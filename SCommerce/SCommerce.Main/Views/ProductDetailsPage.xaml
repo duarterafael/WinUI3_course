@@ -206,6 +206,7 @@
                     Width="100"
                     HorizontalContentAlignment="Center"
                     VerticalContentAlignment="Center"
+                    Command="{x:Bind ViewModel.AddToCardCommand}"
                     Content="Add to Card"
                     Style="{StaticResource PrimaryButton}" />
             </StackPanel>

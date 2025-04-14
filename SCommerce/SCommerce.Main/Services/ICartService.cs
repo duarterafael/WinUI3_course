@@ -14,20 +14,15 @@
  * with the terms of the license agreement you entered into with Samsung Eletrônica da Amazônia Ltda.
  */
 
-using System;
-using Microsoft.UI.Xaml.Controls;
+using SCommerce.Main.Models;
 
 namespace SCommerce.Main.Services
 {
-    public interface INavegationService
+    public interface ICartService
     {
         #region Public Methods
 
-        public Frame GetRootFrame();
-
-        public void GoBack();
-
-        public void Navagate(Type type, object? parameters = null);
+        public void AddProduct(Product product);
 
         #endregion Public Methods
     }
