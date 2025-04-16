@@ -23,7 +23,7 @@
                 Text="SCommmerce" />
         </CommandBar.Content>
         <controls:BadgeAppBarButton
-            Badge="{x:Bind ViewModel.CardQuantity, Mode=OneWay}"
+            Badge="{x:Bind ViewModel.CartQuantity, Mode=OneWay}"
             Click="{x:Bind ViewModel.CardPageNavigation}"
             Icon="Shop"
             Label="Cart"

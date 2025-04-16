@@ -28,7 +28,7 @@ namespace SCommerce.Main.ViewModels
     {
         #region Private Fields
 
-        private readonly CartService _cartService;
+        private readonly ICartService _cartService;
 
         private Product _product;
 
@@ -38,7 +38,7 @@ namespace SCommerce.Main.ViewModels
 
         #region Public Constructors
 
-        public ProductDetailsViewModel(CartService cartService)
+        public ProductDetailsViewModel(ICartService cartService)
         {
             this._cartService = cartService;
             AddToCardCommand = new RelayCommand(OnAddToCart, CanExecutedAddToCart);

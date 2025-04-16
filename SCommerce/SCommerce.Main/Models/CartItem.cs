@@ -14,55 +14,50 @@
  * with the terms of the license agreement you entered into with Samsung Eletrônica da Amazônia Ltda.
  */
 
-using SCommerce.Main.Models;
-using System;
-using System.Collections.Generic;
+using CommunityToolkit.Mvvm.ComponentModel;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace SCommerce.Main.Services
+namespace SCommerce.Main.Models
 {
-    public class CartService : ICartService
+    public class CartItem : ObservableObject
     {
-        #region Public Constructors
+        #region Private Fields
 
-        public CartService()
-        {
-            _products = new();
-        }
+        private string _image = string.Empty;
+        private double _price = 0;
+        private int _quantity = 0;
+        private string _title = string.Empty;
 
-        #endregion Public Constructors
+        #endregion Private Fields
 
         #region Public Properties
 
-        public ObservableCollection<Product> Products
+        public string Image
         {
-            get { return _products; }
-            private set { _products = value; }
+            get => _image;
+            set => SetProperty(ref _image, value);
+        }
+
+        public ObservableCollection<string> Images { get; set; }
+
+        public double Price
+        {
+            get => _price;
+            set => SetProperty(ref _price, value);
+        }
+
+        public int Quantity
+        {
+            get => _quantity;
+            set => SetProperty(ref _quantity, value);
+        }
+
+        public string Title
+        {
+            get => _title;
+            set => SetProperty(ref _title, value);
         }
 
         #endregion Public Properties
-
-        #region Private Properties
-
-        private ObservableCollection<Product> _products { get; set; }
-
-        #endregion Private Properties
-
-        #region Public Methods
-
-        public void AddProduct(Product product)
-        {
-            _products.Add(product);
-        }
-
-        public ObservableCollection<Product> GetProducts()
-        {
-            return _products;
-        }
-
-        #endregion Public Methods
     }
 }

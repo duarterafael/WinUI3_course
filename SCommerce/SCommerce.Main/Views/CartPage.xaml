@@ -9,7 +9,5 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mc:Ignorable="d">
 
-    <Grid>
-        <Button Click="{x:Bind ViewModel.GoBackNavigation}" Content="Go Backs" />
-    </Grid>
+    <Grid />
 </Page>

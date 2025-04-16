@@ -17,41 +17,39 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using SCommerce.Main.Services;
 using SCommerce.Main.Views;
-using System;
 using System.Collections.Specialized;
 
 namespace SCommerce.Main.ViewModels
 {
     public class HeaderViewModel : ObservableObject
     {
-
         #region Private Fields
 
-        private readonly CartService _cartService;
-        private int _cardQuantity;
+        private readonly ICartService _cartService;
+        private int _cartQuantity;
         private INavegationService _navegationService;
 
         #endregion Private Fields
 
         #region Public Constructors
 
-        public HeaderViewModel(CartService cartService, INavegationService navegationService)
+        public HeaderViewModel(ICartService cartService, INavegationService navegationService)
         {
             _navegationService = navegationService;
             _cartService = cartService;
 
-            _cartService.Products.CollectionChanged += OnProductsCollectionChanged;
-            _cardQuantity = _cartService.Products.Count;
+            _cartService.GetProducts().CollectionChanged += OnProductsCollectionChanged;
+            _cartQuantity = _cartService.GetProducts().Count;
         }
 
         #endregion Public Constructors
 
         #region Public Properties
 
-        public int CardQuantity
+        public int CartQuantity
         {
-            get => _cardQuantity;
-            set => SetProperty(ref _cardQuantity, value);
+            get => _cartQuantity;
+            set => SetProperty(ref _cartQuantity, value);
         }
 
         #endregion Public Properties
@@ -71,15 +69,14 @@ namespace SCommerce.Main.ViewModels
         {
             if (e.OldItems is not null && e.OldItems.Count > 0)
             {
-                _cardQuantity -= e.OldItems.Count;
+                CartQuantity -= e.OldItems.Count;
             }
             if (e.NewItems is not null && e.NewItems.Count > 0)
             {
-                _cardQuantity += e.NewItems.Count;
+                CartQuantity += e.NewItems.Count;
             }
         }
 
         #endregion Private Methods
-
     }
 }

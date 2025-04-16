@@ -8,7 +8,7 @@
     <None Update="Themes\BadgeAppBarButton.xaml">
       <SubType>Designer</SubType>
     </None>
-    <Page Update="Views\CardPage.xaml">
+    <Page Update="Views\CartPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Themes\LightThemeColor.xaml">
