@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\viewmodels\\headerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\viewmodels\\headerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\viewmodels\\cartpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\viewmodels\\cartpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\views\\cartpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\views\\cartpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\viewmodels\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\viewmodels\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\views\\headerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\views\\headerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\views\\cartpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\views\\cartpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|c:\\users\\rbd\\desktop\\winui3_course\\scommerce\\scommerce.main\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4412FEC6-D641-4706-9736-51D977AAB79A}|SCommerce.Main\\SCommerce.Main.csproj|solutionrelative:scommerce.main\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 337,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,67 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductDetailsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\ViewModels\\ProductDetailsViewModel.cs",
-              "RelativeDocumentMoniker": "SCommerce.Main\\ViewModels\\ProductDetailsViewModel.cs",
-              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\ViewModels\\ProductDetailsViewModel.cs",
-              "RelativeToolTip": "SCommerce.Main\\ViewModels\\ProductDetailsViewModel.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAlwF8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T18:32:24.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HeaderView.xaml",
-              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\HeaderView.xaml",
-              "RelativeDocumentMoniker": "SCommerce.Main\\Views\\HeaderView.xaml",
-              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\HeaderView.xaml",
-              "RelativeToolTip": "SCommerce.Main\\Views\\HeaderView.xaml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAcwB0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-16T18:31:49.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HeaderViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\ViewModels\\HeaderViewModel.cs",
-              "RelativeDocumentMoniker": "SCommerce.Main\\ViewModels\\HeaderViewModel.cs",
-              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\ViewModels\\HeaderViewModel.cs",
-              "RelativeToolTip": "SCommerce.Main\\ViewModels\\HeaderViewModel.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAIwEUAAAAMAAAAAAAAAA==",
+              "Title": "CartPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\ViewModels\\CartPageViewModel.cs",
+              "RelativeDocumentMoniker": "SCommerce.Main\\ViewModels\\CartPageViewModel.cs",
+              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\ViewModels\\CartPageViewModel.cs",
+              "RelativeToolTip": "SCommerce.Main\\ViewModels\\CartPageViewModel.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T18:31:15.535Z",
+              "WhenOpened": "2025-04-17T16:53:12.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CartService.cs",
-              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Services\\CartService.cs",
-              "RelativeDocumentMoniker": "SCommerce.Main\\Services\\CartService.cs",
-              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Services\\CartService.cs",
-              "RelativeToolTip": "SCommerce.Main\\Services\\CartService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAA1wDkAAAAMAAAAAAAAAA==",
+              "Title": "CartPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\CartPage.xaml.cs",
+              "RelativeDocumentMoniker": "SCommerce.Main\\Views\\CartPage.xaml.cs",
+              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\CartPage.xaml.cs",
+              "RelativeToolTip": "SCommerce.Main\\Views\\CartPage.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswCgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T18:31:04.185Z",
+              "WhenOpened": "2025-04-17T16:52:42.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CartPage.xaml",
-              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\CartPage.xaml",
-              "RelativeDocumentMoniker": "SCommerce.Main\\Views\\CartPage.xaml",
-              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Views\\CartPage.xaml",
-              "RelativeToolTip": "SCommerce.Main\\Views\\CartPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-16T18:30:54.742Z",
+              "DocumentIndex": 2,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "SCommerce.Main\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\rbd\\Desktop\\WinUI3_course\\SCommerce\\SCommerce.Main\\Models\\CartItem.cs",
+              "RelativeToolTip": "SCommerce.Main\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T13:32:51.21Z",
               "EditorCaption": ""
             }
           ]

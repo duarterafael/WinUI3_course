@@ -40,7 +40,7 @@ namespace SCommerce.Main.Views
 
         #region Public Properties
 
-        public CardPageViewModel ViewModel => DependecyManager.GetCurrent().GetInstance<CardPageViewModel>();
+        public CartPageViewModel ViewModel => DependecyManager.GetCurrent().GetInstance<CartPageViewModel>();
 
         #endregion Public Properties
     }

@@ -24,7 +24,7 @@ using SCommerce.Main.Views;
 
 namespace SCommerce.Main.ViewModels
 {
-    public class CardPageViewModel
+    public class CartPageViewModel
     {
         #region Private Fields
 
@@ -34,7 +34,7 @@ namespace SCommerce.Main.ViewModels
 
         #region Public Constructors
 
-        public CardPageViewModel(INavegationService navegationService)
+        public CartPageViewModel(INavegationService navegationService)
         {
             _navegationService = navegationService;
         }

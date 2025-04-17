@@ -44,7 +44,7 @@ namespace SCommerce.Main.Dependences
                 .AddSingleton<INavegationService, NavegationService>()
                 .AddSingleton<ICartService, CartService>()
                 .AddSingleton<ProductDetailsViewModel>()
-                .AddSingleton<CardPageViewModel>()
+                .AddSingleton<CartPageViewModel>()
                 .AddSingleton<HeaderViewModel>();
                 
             //.AddSingleton<CartService>();
