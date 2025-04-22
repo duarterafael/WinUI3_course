@@ -58,6 +58,30 @@ namespace SCommerce.Main.Services
             _products.Add(product);
         }
 
+        public List<CartItem> GetCartItems()
+        {
+            Dictionary<String, CartItem> cart = new Dictionary<String, CartItem>();
+            foreach (var product in Products)
+            {
+                if (cart.ContainsKey(product.Title))
+                {
+                    cart[product.Title].Quantity++;
+                }
+                else
+                {
+                    var cartItem = new CartItem
+                    {
+                        Quantity = 1,
+                        Title = product.Title,
+                        Price = product.Price,
+                        Image = product.Images[0]
+                    };
+                    cart.Add(product.Title, cartItem);
+                }
+            }
+            return cart.Values.ToList();
+        }
+
         public ObservableCollection<Product> GetProducts()
         {
             return _products;

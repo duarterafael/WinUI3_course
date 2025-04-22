@@ -6,8 +6,48 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="using:SCommerce.Main.Views"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:models="using:SCommerce.Main.Models"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mc:Ignorable="d">
+    <Page.Resources>
 
-    <Grid />
+        <DataTemplate x:Key="CartItemTemplate" x:DataType="models:CartItem">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Image
+                    Width="100"
+                    Height="100"
+                    Margin="0,0,20,0"
+                    Source="{x:Bind Image}" />
+                <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                    <TextBlock Text="{x:Bind Title}" />
+                    <TextBlock Text="{x:Bind Price}" />
+                </StackPanel>
+
+                <TextBlock
+                    Grid.Column="2"
+                    VerticalAlignment="Center"
+                    Text="{x:Bind Quantity}" />
+            </Grid>
+        </DataTemplate>
+    </Page.Resources>
+    <Grid Padding="2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <ScrollViewer Grid.Row="1">
+            <ItemsControl ItemTemplate="{StaticResource CartItemTemplate}" ItemsSource="{x:Bind ViewModel.CartItems}" />
+        </ScrollViewer>
+        <Button
+            Grid.Row="2"
+            Margin="20"
+            HorizontalAlignment="Center"
+            Content="Checkout" />
+    </Grid>
 </Page>

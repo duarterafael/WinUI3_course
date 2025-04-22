@@ -16,9 +16,11 @@
 
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SCommerce.Main.Models;
 using SCommerce.Main.Services;
 using SCommerce.Main.Views;
 
@@ -26,6 +28,12 @@ namespace SCommerce.Main.ViewModels
 {
     public class CartPageViewModel
     {
+        #region Public Fields
+
+        public readonly ICartService _cartService;
+
+        #endregion Public Fields
+
         #region Private Fields
 
         private INavegationService _navegationService;
@@ -34,12 +42,21 @@ namespace SCommerce.Main.ViewModels
 
         #region Public Constructors
 
-        public CartPageViewModel(INavegationService navegationService)
+        public CartPageViewModel(INavegationService navegationService, ICartService cartService)
         {
             _navegationService = navegationService;
+            _cartService = cartService;
+
+            CartItems = new ObservableCollection<CartItem>(_cartService.GetCartItems());
         }
 
         #endregion Public Constructors
+
+        #region Public Properties
+
+        public ObservableCollection<CartItem> CartItems { get; set; }
+
+        #endregion Public Properties
 
         #region Public Methods
 

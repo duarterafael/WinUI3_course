@@ -15,6 +15,7 @@
  */
 
 using SCommerce.Main.Models;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
 namespace SCommerce.Main.Services
@@ -24,6 +25,8 @@ namespace SCommerce.Main.Services
         #region Public Methods
 
         public void AddProduct(Product product);
+
+        public List<CartItem> GetCartItems();
 
         public ObservableCollection<Product> GetProducts();
 
