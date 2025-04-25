@@ -30,6 +30,8 @@ namespace SCommerce.Main.Services
 
         public ObservableCollection<Product> GetProducts();
 
+        public void SubtractProduct(Product product);
+
         #endregion Public Methods
     }
 }

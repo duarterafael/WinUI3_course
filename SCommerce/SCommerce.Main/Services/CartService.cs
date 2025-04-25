@@ -71,10 +71,8 @@ namespace SCommerce.Main.Services
                 {
                     var cartItem = new CartItem
                     {
-                        Quantity = 1,
-                        Title = product.Title,
-                        Price = product.Price,
-                        Image = product.Images[0]
+                        Product = product,
+                        Quantity = 1
                     };
                     cart.Add(product.Title, cartItem);
                 }
@@ -85,6 +83,11 @@ namespace SCommerce.Main.Services
         public ObservableCollection<Product> GetProducts()
         {
             return _products;
+        }
+
+        public void SubtractProduct(Product product)
+        {
+            _products.Remove(product);
         }
 
         #endregion Public Methods

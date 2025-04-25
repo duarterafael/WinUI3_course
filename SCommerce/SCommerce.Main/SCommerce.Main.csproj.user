@@ -5,6 +5,9 @@
     <None Update="App.xaml">
       <SubType>Designer</SubType>
     </None>
+    <Page Update="Controls\QuantityControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <None Update="Themes\BadgeAppBarButton.xaml">
       <SubType>Designer</SubType>
     </None>

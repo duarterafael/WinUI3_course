@@ -17,20 +17,24 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Collections.Specialized;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CommunityToolkit.Mvvm.ComponentModel;
 using SCommerce.Main.Models;
 using SCommerce.Main.Services;
 using SCommerce.Main.Views;
 
 namespace SCommerce.Main.ViewModels
 {
-    public class CartPageViewModel
+    public class CartPageViewModel : ObservableObject
     {
         #region Public Fields
 
         public readonly ICartService _cartService;
+
+        public ObservableCollection<CartItemViewModel> _cartItems = new();
 
         #endregion Public Fields
 
@@ -47,14 +51,21 @@ namespace SCommerce.Main.ViewModels
             _navegationService = navegationService;
             _cartService = cartService;
 
-            CartItems = new ObservableCollection<CartItem>(_cartService.GetCartItems());
+            _cartService.GetProducts().CollectionChanged += Product_CollectionChanged;
+
+            List<CartItemViewModel> items = _cartService.GetCartItems().Select(e => CartItemViewModel.Create(e, cartService)).ToList();
+            CartItems = new ObservableCollection<CartItemViewModel>(items);
         }
 
         #endregion Public Constructors
 
         #region Public Properties
 
-        public ObservableCollection<CartItem> CartItems { get; set; }
+        public ObservableCollection<CartItemViewModel> CartItems
+        {
+            get => _cartItems;
+            set => SetProperty(ref _cartItems, value);
+        }
 
         #endregion Public Properties
 
@@ -66,5 +77,20 @@ namespace SCommerce.Main.ViewModels
         }
 
         #endregion Public Methods
+
+        #region Private Methods
+
+        private void Product_CollectionChanged(object? sender, NotifyCollectionChangedEventArgs e)
+        {
+            if (sender is not null && sender is ObservableCollection<Product> products)
+            {
+                if (products.Count() == 0)
+                {
+                    CartItems = new ObservableCollection<CartItemViewModel>();
+                }
+            }
+        }
+
+        #endregion Private Methods
     }
 }

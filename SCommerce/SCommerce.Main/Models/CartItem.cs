@@ -23,39 +23,18 @@ namespace SCommerce.Main.Models
     {
         #region Private Fields
 
-        private string _image = string.Empty;
-        private double _price = 0;
         private int _quantity = 0;
-        private string _title = string.Empty;
 
         #endregion Private Fields
 
         #region Public Properties
 
-        public string Image
-        {
-            get => _image;
-            set => SetProperty(ref _image, value);
-        }
-
-        public ObservableCollection<string> Images { get; set; }
-
-        public double Price
-        {
-            get => _price;
-            set => SetProperty(ref _price, value);
-        }
+        public Product Product { get; set; } = new();
 
         public int Quantity
         {
             get => _quantity;
             set => SetProperty(ref _quantity, value);
-        }
-
-        public string Title
-        {
-            get => _title;
-            set => SetProperty(ref _title, value);
         }
 
         #endregion Public Properties
