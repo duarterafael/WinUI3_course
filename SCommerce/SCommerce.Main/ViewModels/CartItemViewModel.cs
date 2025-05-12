@@ -52,7 +52,7 @@ namespace SCommerce.Main.ViewModels
         #region Public Properties
 
         public RelayCommand AddCommand { get; private set; }
-        public string Image => Product.Images[0];
+        public string Image => Product.Images[0].path;
         public double Price => Product.Price;
 
         public Product Product
@@ -95,9 +95,8 @@ namespace SCommerce.Main.ViewModels
 
         private void Subtractction()
         {
-                Quantity--;
-                _cartService.SubtractProduct(Product);
-           
+            Quantity--;
+            _cartService.SubtractProduct(Product);
         }
 
         #endregion Private Methods

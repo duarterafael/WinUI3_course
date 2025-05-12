@@ -66,7 +66,7 @@ namespace SCommerce.Main
             DependecyManager.Setup();
 
             INavegationService navegationService = DependecyManager.GetCurrent().GetInstance<INavegationService>();
-            navegationService.Navagate(typeof(ProductDetailsPage));
+            navegationService.Navagate(typeof(ProductsPage));
 
             var appShell = new AppShell();
             appShell.SetFrame(navegationService.GetRootFrame());

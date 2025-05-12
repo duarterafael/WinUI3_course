@@ -14,51 +14,41 @@
  * with the terms of the license agreement you entered into with Samsung Eletrônica da Amazônia Ltda.
  */
 
-using System;
+using CommunityToolkit.Mvvm.ComponentModel;
+using SCommerce.Main.Models;
+using SCommerce.Main.Services;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace SCommerce.Main.Models
+namespace SCommerce.Main.ViewModels
 {
-    public class Product : ObservableObject
+    public class ProductsPageViewModel : ObservableObject
     {
         #region Private Fields
 
-        private string _description = string.Empty;
-        private double _price = 0;
-        private int _rating = 0;
-        private string _title = string.Empty;
+        private readonly INavegationService _navegationService;
+        private readonly IProdcutService _productService;
+
+        private ObservableCollection<Product> _items;
 
         #endregion Private Fields
 
+        #region Public Constructors
+
+        public ProductsPageViewModel(INavegationService navegationService, IProdcutService prodcutService)
+        {
+            this._navegationService = navegationService;
+            this._productService = prodcutService;
+        }
+
+        #endregion Public Constructors
+
         #region Public Properties
 
-        public string Description
+        public ObservableCollection<Product> Items
         {
-            get => _description;
-            set => SetProperty(ref _description, value);
-        }
-
-        public Guid Id { get; set; } = new Guid();
-        public List<ProductImage> Images { get; set; }
-
-        public double Price
-        {
-            get => _price;
-            set => SetProperty(ref _price, value);
-        }
-
-        public int Rating
-        {
-            get => _rating;
-            set => SetProperty(ref _rating, value);
-        }
-
-        public string Title
-        {
-            get => _title;
-            set => SetProperty(ref _title, value);
+            get => _items;
+            set => SetProperty(ref _items, value);
         }
 
         #endregion Public Properties

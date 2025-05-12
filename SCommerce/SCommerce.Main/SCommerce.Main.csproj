@@ -18,6 +18,7 @@
     <None Remove="Themes\LightThemeColor.xaml" />
     <None Remove="Views\HeaderView.xaml" />
     <None Remove="Views\ProductDetailsPage.xaml" />
+    <None Remove="Views\ProductsPage.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -56,6 +57,9 @@
     <None Update="Themes\BadgeAppBarButton.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
+    <Page Update="Views\ProductsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Update="Views\CartPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -16,50 +16,19 @@
 
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using CommunityToolkit.Mvvm.ComponentModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace SCommerce.Main.Models
 {
-    public class Product : ObservableObject
+    public class ProductImage
     {
-        #region Private Fields
-
-        private string _description = string.Empty;
-        private double _price = 0;
-        private int _rating = 0;
-        private string _title = string.Empty;
-
-        #endregion Private Fields
-
         #region Public Properties
 
-        public string Description
-        {
-            get => _description;
-            set => SetProperty(ref _description, value);
-        }
-
         public Guid Id { get; set; } = new Guid();
-        public List<ProductImage> Images { get; set; }
 
-        public double Price
-        {
-            get => _price;
-            set => SetProperty(ref _price, value);
-        }
-
-        public int Rating
-        {
-            get => _rating;
-            set => SetProperty(ref _rating, value);
-        }
-
-        public string Title
-        {
-            get => _title;
-            set => SetProperty(ref _title, value);
-        }
+        public string path { get; set; }
 
         #endregion Public Properties
     }

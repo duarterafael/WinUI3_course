@@ -43,10 +43,12 @@ namespace SCommerce.Main.Dependences
                 .AddSingleton(GetCurrent())
                 .AddSingleton<INavegationService, NavegationService>()
                 .AddSingleton<ICartService, CartService>()
+                .AddSingleton<IProdcutService, ProductService>()
                 .AddSingleton<ProductDetailsViewModel>()
+                .AddSingleton<ProductsPageViewModel>()
                 .AddSingleton<CartPageViewModel>()
                 .AddSingleton<HeaderViewModel>();
-                
+
             //.AddSingleton<CartService>();
 
             s_provider = servicesCollection.BuildServiceProvider();
