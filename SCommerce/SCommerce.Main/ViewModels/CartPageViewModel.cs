@@ -41,6 +41,10 @@ namespace SCommerce.Main.ViewModels
         #region Private Fields
 
         private INavegationService _navegationService;
+        private string _selectedStep;
+        private List<string> _steps;
+
+        private int count = 0;
 
         #endregion Private Fields
 
@@ -55,6 +59,10 @@ namespace SCommerce.Main.ViewModels
 
             List<CartItemViewModel> items = _cartService.GetCartItems().Select(e => CartItemViewModel.Create(e, cartService)).ToList();
             CartItems = new ObservableCollection<CartItemViewModel>(items);
+
+            Steps = new() { "Ckeckout", "Adress", "Payment" };
+
+            SelectedStep = Steps.First();
         }
 
         #endregion Public Constructors
@@ -67,9 +75,27 @@ namespace SCommerce.Main.ViewModels
             set => SetProperty(ref _cartItems, value);
         }
 
+        public string SelectedStep
+        {
+            get { return _selectedStep; }
+            set { SetProperty(ref _selectedStep, value); }
+        }
+
+        public List<string> Steps
+        {
+            get { return _steps; }
+            set { SetProperty(ref _steps, value); }
+        }
+
         #endregion Public Properties
 
         #region Public Methods
+
+        public void ChangedSelectedStep()
+        {
+            count++;
+            SelectedStep = Steps[count % Steps.Count];
+        }
 
         public void GoBackNavigation()
         {
